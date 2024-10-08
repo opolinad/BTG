@@ -1,0 +1,27 @@
+.navbar{
+    padding: 20px 50px;
+    display: flex;
+    color: #00265d;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid #00265d;
+
+    &__logo{
+        margin-right: 80px;
+    }
+
+    &__items{
+        display: flex;
+        list-style: none;
+        flex:1;
+
+        &>li{
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+
+    &__user{
+        font-weight: 700;
+    }
+}

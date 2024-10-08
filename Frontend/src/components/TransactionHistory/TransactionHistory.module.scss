@@ -1,0 +1,14 @@
+.history {
+    width: 100%;
+    margin: auto;
+    max-width: 40%;
+    color: #00265d;
+    text-align: center;
+
+    &__row {
+        height: 30px;
+        &:nth-child(odd) {
+            background-color: #458cef63;
+        }
+    }
+}
